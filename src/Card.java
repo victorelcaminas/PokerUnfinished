@@ -26,4 +26,12 @@ public class Card {
         s += " de " + suit;
         return s;
     }
+
+    public String getSuit() {
+        return suit;
+    }
+
+    public int getNumber() {
+        return number;
+    }
 }
